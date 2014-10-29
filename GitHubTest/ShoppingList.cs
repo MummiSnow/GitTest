@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace GitHubTest
 {
-    class ShoppingList : 
+    class ShoppingList
     {
         public string CocaCola { get; private set; }
         public string Milk { get; set; }
         public string Bread { get; set; }
 
+        public string Mert { get; set; }
         public ShoppingList(string cocaCola, string milk, string bread)
         {
             CocaCola = cocaCola;
